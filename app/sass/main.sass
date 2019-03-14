@@ -1,0 +1,17 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+*, *::before, *::after
+	box-sizing: border-box
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+
+@import "media" // Always at the end
